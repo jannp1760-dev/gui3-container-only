@@ -26,9 +26,6 @@ jobs:
         with:
           gradle-version: '9.8.2'
 
-      - name: Unpack mod source
-        run: unzip -o gui3-source.zip -d .
-
       - name: Build mod
         run: gradle --no-daemon clean build
 
