@@ -2,7 +2,7 @@ package de.gui3.mixin;
 
 import de.gui3.Gui3Scale;
 import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.gui.Screen;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.input.MouseButtonEvent;
 import org.joml.Matrix3x2fStack;
