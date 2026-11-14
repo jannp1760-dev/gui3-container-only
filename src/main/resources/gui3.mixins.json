@@ -3,7 +3,6 @@
   "minVersion": "0.8",
   "package": "de.gui3.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "gui3.refmap.json",
   "client": [
     "AbstractContainerScreenMixin"
   ],
