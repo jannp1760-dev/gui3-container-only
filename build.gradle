@@ -21,11 +21,6 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 }
 
-loom {
-    mixin {
-        defaultRefmapName = "gui3.refmap.json"
-    }
-}
 
 processResources {
     inputs.property "version", project.version
