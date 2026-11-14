@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "gui3container",
+  "version": "${version}",
+  "name": "GUI 3 - Container Screens Only",
+  "description": "Configurable container GUI scaling without changing the in-game HUD.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.gui3.Gui3Client"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "gui3.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
